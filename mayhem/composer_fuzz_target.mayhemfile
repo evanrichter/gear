@@ -1,0 +1,7 @@
+project: gear
+target: composer-fuzz-target
+
+cmds:
+  - cmd: /composer_fuzz_target
+  - cmd: /composer_fuzz_target_no_inst @@
+    libfuzzer: false

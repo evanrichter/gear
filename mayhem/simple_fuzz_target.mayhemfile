@@ -1,0 +1,7 @@
+project: gear
+target: simple-fuzz-target
+
+cmds:
+  - cmd: /simple_fuzz_target
+  - cmd: /simple_fuzz_target_no_inst @@
+    libfuzzer: false
